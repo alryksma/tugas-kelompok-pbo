@@ -11,10 +11,6 @@ class Mamalia(Animal):
         self.bisaJalan = bisaJalan
         self.jenisMamalia = jenisMamalia
 
-    def tampilMamalia(self):
-        print(f'Nama hewan: {self.nama}, sifat hewan: {self.sifat}, 
-              ukuran: {self.ukuran}, jumlah kaki: {self.jumlahKaki}, 
-              bisa jalan: {self.bisaJalan}, jenis mamalia: {self.jenisMamalia}')
 
 class Aves(Animal):
     def __init__(self, nama, sifat, ukuran, jumlahKaki, bisaTerbang, jenisAves):
@@ -22,10 +18,6 @@ class Aves(Animal):
         self.bisaTerbang = bisaTerbang
         self.jenisAves = jenisAves
 
-    def tampilAves(self):
-        print(f'Nama hewan: {self.nama}, sifat hewan: {self.sifat}, 
-              ukuran: {self.ukuran}, jumlah kaki: {self.jumlahKaki}, 
-              bisa jalan: {self.bisaTerbang}, jenis mamalia: {self.jenisAves}')
         
 class Ayam(Aves):
     def __init__(self, nama, sifat, ukuran, jumlahKaki, bisaTerbang, jenisAves, jenisAyam, bisaDiadu):
